@@ -1,0 +1,157 @@
+TBT.Verbosity         5     # default value
+SystemName           # default value
+SystemLabel     siesta     # default value
+CDF.Compress         0     # default value
+TBT.CDF.Compress         0     # default value
+TBT.Directory           # default value
+timer_report_threshold          0.000000000         # default value
+alloc_report_level         0     # default value
+alloc_report_threshold          0.000000000         # default value
+TS.Voltage          0.000000000     Ry     # default value
+TBT.Voltage          0.000000000     Ry     # default value
+TBT.HS     DEVICE.nc                                                                       
+SpinPolarized              F     # default value
+NonCollinearSpin              F     # default value
+SpinOrbit              F     # default value
+#:block? SpinPolarized              F
+#:defined? SpinPolarized              F
+#:block? NonCollinearSpin              F
+#:defined? NonCollinearSpin              F
+#:block? SpinOrbit              F
+#:defined? SpinOrbit              F
+Spin     none                                 # default value
+TimeReversalSymmetry              T     # default value
+#:block? TBT.Atoms.Buffer              F
+#:defined? TBT.Atoms.Buffer              F
+#:block? TS.BufferAtomsLeft              F
+#:defined? TS.BufferAtomsLeft              F
+#:block? TS.BufferAtomsRight              F
+#:defined? TS.BufferAtomsRight              F
+#:list? TS.Atoms.Buffer              F
+TBT.DivideAndConquer              F     # default value
+TBT.Normalize              T     # default value
+ElectronicTemperature         0.1900000000E-02 Ry     # default value
+TS.ElectronicTemperature         0.1900000000E-02 Ry     # default value
+TBT.ElectronicTemperature         0.1900000000E-02 Ry     # default value
+TS.Elecs.Coord.Eps         0.1889726878E-02 Bohr     # default value
+TBT.Elecs.Coord.Eps         0.1889726878E-02 Bohr     # default value
+TS.Elecs.Bulk              T     # default value
+TBT.Elecs.Bulk              T     # default value
+TS.Elecs.Eta         0.7349806700E-04 Ry     # default value
+TBT.Elecs.Eta         0.7349806700E-04 Ry     # default value
+TS.Elecs.Accuracy         0.7349806700E-14 Ry     # default value
+TBT.Elecs.Accuracy         0.7349806700E-14 Ry     # default value
+TBT.Elecs.Out-of-core              F     # default value
+TS.Elecs.GF.ReUse              T     # default value
+TBT.Elecs.GF.ReUse              T     # default value
+TBT.Elecs.GF.Only              F     # default value
+#:block? TBT.Elec.Left.HS              F
+#:defined? TBT.Elec.Left.HS              F
+TBT.Elec.Left.Bloch.A1         1     # default value
+TBT.Elec.Left.Bloch.A2         1     # default value
+TBT.Elec.Left.Bloch.A3         1     # default value
+#:block? TBT.Elec.Left.GF              F
+#:defined? TBT.Elec.Left.GF              F
+%block TBT.Elec.Left
+TBT.Elec.Left.UsedAtoms        -1     # default value
+   HS ELEC.nc
+   semi-inf-direction -A2
+   electrode-position 1
+%endblock TBT.Elec.Left
+#:block? TBT.Elec.Right.HS              F
+#:defined? TBT.Elec.Right.HS              F
+TBT.Elec.Right.Bloch.A1         1     # default value
+TBT.Elec.Right.Bloch.A2         1     # default value
+TBT.Elec.Right.Bloch.A3         1     # default value
+#:block? TBT.Elec.Right.GF              F
+#:defined? TBT.Elec.Right.GF              F
+%block TBT.Elec.Right
+TBT.Elec.Right.UsedAtoms        -1     # default value
+   HS ELEC.nc
+   semi-inf-direction +A2
+   electrode-position end -1
+%endblock TBT.Elec.Right
+TBT.k.File     NONE     # default value
+SpinSpiral              F     # default value
+TBT.Symmetry.TimeReversal              T     # default value
+#:list? TBT.k              T
+#:list? TBT.k              T
+TBT.Progress          5.000000000         # default value
+TBT.SolutionMethod     BTD     # default value
+TS.BTD.Optimize     speed     # default value
+TBT.BTD.Optimize     speed     # default value
+TS.BTD.Spectral     propagation     # default value
+TBT.BTD.Spectral     propagation     # default value
+TBT.T.Elecs.All              F     # default value
+TBT.T.All              F     # default value
+TBT.T.Eig         0     # default value
+TBT.DOS.Elecs              F     # default value
+TBT.T.Bulk              F     # default value
+TBT.DOS.Gf              T
+TBT.DOS.A              T
+TBT.DOS.A.All              F     # default value
+TBT.Current.Orb              F     # default value
+TBT.DM.Gf              F     # default value
+TBT.DM.A              F     # default value
+TBT.COOP.Gf              F     # default value
+TBT.COOP.A              F     # default value
+TBT.COHP.Gf              F     # default value
+TBT.COHP.A              F     # default value
+TBT.T.Out              F     # default value
+TBT.CDF.SelfEnergy.Save              F     # default value
+TBT.SelfEnergy.Save              F     # default value
+CDF.Compress         0     # default value
+TBT.CDF.Compress         0     # default value
+TBT.CDF.SelfEnergy.Compress         0     # default value
+TBT.dH     NONE 1234567890     # default value
+TBT.dSE     NONE 1234567890     # default value
+TBT.Contours.Eta          0.000000000     Ry     # default value
+TS.Voltage          0.000000000     Ry     # default value
+TBT.Voltage          0.000000000     Ry     # default value
+#:block-line-count? TBT.Contours (n)   0
+#:block? TBT.Contour.line              F
+#:block? TBT.Projs              F
+#:defined? TBT.Projs              F
+TBT.CDF.Precision     single     # default value
+#:list? TBT.Atoms.Device              F
+TBT.Atoms.Device.Connect              F     # default value
+TBT.BTD.Pivot.Elecs     atom+Left     # default value
+TBT.BTD.Pivot.Elec.Left     atom+Left     # default value
+TBT.BTD.Pivot.Elecs     atom+Right     # default value
+TBT.BTD.Pivot.Elec.Right     atom+Right     # default value
+TBT.BTD.Pivot.Graphviz              F     # default value
+TBT.BTD.Pivot.Graphviz              F     # default value
+TBT.Analyze              F     # default value
+TS.BTD.Pivot     atom+Left     # default value
+TBT.BTD.Pivot     atom+Left     # default value
+TBT.BTD.Pivot.Device     atom+Left     # default value
+TBT.BTD.Pivot.Graphviz              F     # default value
+TBT.Region.k              F     # default value
+TS.BTD.Guess1.Min         1     # default value
+TBT.BTD.Guess1.Min         1     # default value
+TS.BTD.Guess1.Max         1     # default value
+TBT.BTD.Guess1.Max         1     # default value
+TS.BTD.Output           # default value
+TS.BTD.Guess1.Min         1     # default value
+TBT.BTD.Guess1.Min         1     # default value
+TS.BTD.Guess1.Max         1     # default value
+TBT.BTD.Guess1.Max         1     # default value
+TS.BTD.Output           # default value
+TBT.Analyze              F     # default value
+TS.BTD.Guess1.Min         1     # default value
+TBT.BTD.Guess1.Min         1     # default value
+TS.BTD.Guess1.Max         1     # default value
+TBT.BTD.Guess1.Max         1     # default value
+TS.BTD.Output           # default value
+TBT.CDF.Precision     single     # default value
+TBT.CDF.DOS.Precision     single                   # default value
+TBT.CDF.Precision     single     # default value
+TBT.CDF.T.Precision     single                   # default value
+TBT.CDF.Precision     single     # default value
+TBT.CDF.T.Eig.Precision     single                   # default value
+TBT.CDF.Precision     single     # default value
+TBT.CDF.Current.Precision     single                   # default value
+TBT.CDF.Precision     single     # default value
+TBT.CDF.COOP.Precision     single                   # default value
+TBT.CDF.Precision     single     # default value
+TBT.CDF.DM.Precision     single                   # default value

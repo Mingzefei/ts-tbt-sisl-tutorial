@@ -1,0 +1,11 @@
+#!/bin/bash
+
+export OMP_NUM_THREADS=30
+
+siesta --electrode RUN_ELEC.fdf > RUN_ELEC.out
+
+siesta RUN.fdf > RUN.out
+
+echo "jobs done" | msmtp -a default huagb@qq.com
+
+

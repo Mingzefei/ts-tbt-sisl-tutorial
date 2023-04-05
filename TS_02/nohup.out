@@ -1,0 +1,6 @@
+Job completed
+Job completed
+Job completed
+Job completed
+msmtp: cannot connect to smtp.163.com, port 25: 连接超时
+msmtp: could not send mail (account default from /home/phia/.msmtprc)

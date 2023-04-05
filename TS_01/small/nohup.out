@@ -1,0 +1,15 @@
+Job completed
+Job completed
+Job completed
+Electrode connectivity is not perfect, refer to the manual for achieving a perfect electrode.
+Stopping Program from Node:    0
+
+Program aborted. Backtrace:
+#0  0x562e6691025b in ???
+#1  0x562e6688c0d0 in ???
+#2  0x562e66899b46 in ???
+#3  0x562e665ae02e in ???
+#4  0x562e664df09d in ???
+#5  0x7fcd2afbf0b2 in ???
+#6  0x562e664df180 in ???
+run.job：行 5: 918730 已放弃               （核心已转储） siesta RUN.fdf > TS_SMALL.out

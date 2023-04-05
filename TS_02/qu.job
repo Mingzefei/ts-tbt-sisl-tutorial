@@ -1,0 +1,21 @@
+#!/bin/bash
+
+export OMP_NUM_THREADS=24
+
+# siesta --electrode RUN_ELEC.fdf > ELEC.out
+cd TS_0
+cp ../C.psf .
+siesta ../RUN.fdf > TS.out
+# Check that the charge is converged etc.
+cp siesta.TSDE ../TS_0.5/
+cd ../TS_0.5
+cp ../C.psf .
+siesta -V 0.5:eV ../RUN.fdf > TS.out
+# Check that it has converged...
+cp siesta.TSDE ../TS_1.0/
+cd ../TS_1.0
+cp ../C.psf .
+siesta -V 1:eV ../RUN.fdf > TS.out
+# Check that it has converged...
+
+echo "jobs done" | msmtp -a default huagb@qq.com
