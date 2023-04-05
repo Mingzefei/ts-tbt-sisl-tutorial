@@ -1,6 +1,0 @@
-#!/bin/bash
-
-siesta --electrode RUN_ELEC.fdf > ELEC_SMALL.out
-
-siesta RUN.fdf > TS_SMALL.out
-
